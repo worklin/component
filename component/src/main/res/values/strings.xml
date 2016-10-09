@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Library</string>
+    <string name="loading">卖力加载中..</string>
 </resources>

@@ -2,7 +2,6 @@ package me.czmc.library.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.os.Build;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -13,7 +12,6 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

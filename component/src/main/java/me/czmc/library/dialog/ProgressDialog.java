@@ -32,7 +32,7 @@ public class ProgressDialog extends Dialog {
         setContentView(R.layout.dialog_progress);
         getWindow().setBackgroundDrawableResource(android.R.color.transparent);
         TextView msg = (TextView) findViewById(R.id.id_tv_loadingmsg);
-        msg.setText("卖力加载中..");
+        msg.setText(getContext().getString(R.string.loading));
     }
 
     public static ProgressDialog show(Context context, CharSequence message) {
